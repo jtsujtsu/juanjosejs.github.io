@@ -1,0 +1,189 @@
+      body {
+          background-color: rgba(105, 105, 105, 0.200);
+          background-image: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/09/rick-y-morty-scaled.jpeg?resize=1200%2C695&quality=50&strip=all&ssl=1");
+          /* background-position: center center; */
+          background-size: 50%;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .tit-sinop {
+          display: flex;
+          justify-content: center;
+      }
+
+      .tit-sinop h2 {
+          padding: 10px;
+          margin: 10px;
+          background-color: rgba(255, 255, 0, 0.500);
+          border-radius: 15px;
+          border-color: black;
+          border-style: groove;
+          text-align: center;
+          width: 250px;
+      }
+
+      .tit-perso {
+          display: flex;
+          justify-content: center;
+      }
+
+      .tit-perso h2 {
+          padding: 10px;
+          margin: 10px;
+          background-color: rgba(255, 255, 0, 0.500);
+          border-radius: 15px;
+          border-color: black;
+          border-style: groove;
+          text-align: center;
+          width: 250px;
+      }
+
+      .tit-serie {
+          display: flex;
+          justify-content: center;
+      }
+
+      .tit-serie h2 {
+          padding: 10px;
+          margin: 10px;
+          background-color: rgba(255, 255, 0, 0.500);
+          border-radius: 15px;
+          border-color: black;
+          border-style: groove;
+          text-align: center;
+          width: 250px;
+      }
+
+      main {
+          background-color: rgba(238, 104, 55, 0.5);
+          border-color: black;
+          border-style: groove;
+          padding: 50px;
+          margin: 30px;
+          border-radius: 25px;
+          width: 950px;
+      }
+
+      .sinopsis-texto {
+          background-color: rgba(240, 255, 255, 0.500);
+          border-color: black;
+          border-style: groove;
+          padding: 15px;
+          border-radius: 25px;
+      }
+
+      .ver-serie {
+          background-color: rgba(240, 255, 255, 0.500);
+          border-color: black;
+          border-style: groove;
+          padding: 15px;
+          border-radius: 25px;
+          text-align: center;
+      }
+
+      .caracteristicas-sinopsis {
+          background-color: rgba(240, 255, 255, 0.500);
+          border-color: black;
+          border-style: groove;
+          padding: 15px;
+          border-radius: 25px;
+      }
+
+      header {
+          background-color: rgba(128, 255, 0, 0.500);
+          border-color: black;
+          border-style: groove;
+          padding: 50px;
+          margin: 30px;
+          border-radius: 25px;
+          width: 950px;
+      }
+
+      .encabezado-pagina {
+          text-decoration: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .titulo-general {
+          list-style: none;
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+      }
+
+      .titulo-principal {
+          padding: 10px;
+          margin: 10px;
+          background-color: rgba(218, 112, 214, 0.500);
+          border-radius: 15px;
+          border-color: black;
+          border-style: groove;
+          text-align: center;
+      }
+
+      .navegador ul {
+          list-style: none;
+          display: flex;
+      }
+
+      .navegador ul li {
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+          padding: 10px;
+          margin: 5px;
+          width: 130px;
+          background-color: rgba(0, 195, 255, 0.500);
+          border-radius: 15px;
+          border-color: black;
+          border-style: groove;
+      }
+
+      footer {
+          background-color: rgba(0, 255, 255, 0.500);
+          border-color: black;
+          border-style: groove;
+          padding: 50px;
+          margin: 30px;
+          border-radius: 25px;
+          width: 950px;
+      }
+
+      .pie-pagina {
+          text-decoration: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .pie-julian ul {
+          list-style: none;
+      }
+
+      .pie-julian ul li {
+          padding: 10px;
+          margin: 10px;
+          background-color: rgba(137, 43, 226, 0.500);
+          border-radius: 15px;
+          border-color: black;
+          border-style: groove;
+          text-align: center;
+      }
+
+      .pie-profe ul {
+          list-style: none;
+      }
+
+      .pie-profe ul li {
+          padding: 10px;
+          margin: 10px;
+          background-color: rgba(137, 43, 226, 0.500);
+          border-radius: 15px;
+          border-color: black;
+          border-style: groove;
+          text-align: center;
+      }
