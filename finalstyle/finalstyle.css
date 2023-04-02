@@ -1,14 +1,17 @@
       body {
           background-color: rgba(105, 105, 105, 0.200);
           background-image: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/09/rick-y-morty-scaled.jpeg?resize=1200%2C695&quality=50&strip=all&ssl=1");
-          /* background-position: center center; */
-          background-size: 100%;
+          background-position: center center;
+          background-size: 110%;
           background-repeat: no-repeat;
           background-attachment: fixed;
           font-family: Arial, Helvetica, sans-serif;
           justify-content: center;
           align-items: center;
+          height: max-content;
       }
+
+      /* ################################################################### */
 
       .tit-sinop {
           display: flex;
@@ -16,14 +19,15 @@
       }
 
       .tit-sinop h2 {
-          padding: 10px;
+          padding: 20px;
           margin: 10px;
           background-color: rgba(255, 255, 0, 0.500);
           border-radius: 15px;
+          border: 5px;
           border-color: black;
           border-style: groove;
           text-align: center;
-          width: 250px;
+          width: auto;
       }
 
       .tit-perso {
@@ -32,14 +36,15 @@
       }
 
       .tit-perso h2 {
-          padding: 10px;
+          padding: 20px;
           margin: 10px;
           background-color: rgba(255, 255, 0, 0.500);
           border-radius: 15px;
+          border: 5px;
           border-color: black;
           border-style: groove;
           text-align: center;
-          width: 250px;
+          width: auto;
       }
 
       .tit-serie {
@@ -48,18 +53,22 @@
       }
 
       .tit-serie h2 {
-          padding: 10px;
+          padding: 20px;
           margin: 10px;
           background-color: rgba(255, 255, 0, 0.500);
           border-radius: 15px;
+          border: 5px;
           border-color: black;
           border-style: groove;
           text-align: center;
-          width: 250px;
+          width: auto;
       }
+
+      /* ################################################################### */
 
       main {
           background-color: rgba(238, 104, 55, 0.5);
+          border: 5px;
           border-color: black;
           border-style: groove;
           padding: 50px;
@@ -68,33 +77,49 @@
           width: 950px;
       }
 
+      /* ################################################################### */
+
       .sinopsis-texto {
           background-color: rgba(240, 255, 255, 0.500);
           border-color: black;
           border-style: groove;
-          padding: 15px;
+          padding: 10px;
+          margin: 5px;
           border-radius: 25px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
       .ver-serie {
           background-color: rgba(240, 255, 255, 0.500);
           border-color: black;
           border-style: groove;
-          padding: 15px;
+          padding: 10px;
           border-radius: 25px;
           text-align: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
       .caracteristicas-sinopsis {
+          display: flex;
+          justify-content: center;
+      }
+
+      .caracteristicas-sinopsis text {
           background-color: rgba(240, 255, 255, 0.500);
           border-color: black;
           border-style: groove;
-          padding: 15px;
+          padding: 10px;
           border-radius: 25px;
+          text-align: center;
+          width: auto;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
+
+      /* ################################################################### */
 
       header {
           background-color: rgba(128, 255, 0, 0.500);
+          border: 5px;
           border-color: black;
           border-style: groove;
           padding: 50px;
@@ -102,6 +127,8 @@
           border-radius: 25px;
           width: 950px;
       }
+
+      /* ################################################################### */
 
       .encabezado-pagina {
           text-decoration: none;
@@ -122,6 +149,7 @@
           margin: 10px;
           background-color: rgba(218, 112, 214, 0.500);
           border-radius: 15px;
+          border: 5px;
           border-color: black;
           border-style: groove;
           text-align: center;
@@ -145,8 +173,11 @@
           border-style: groove;
       }
 
+      /* ################################################################### */
+
       footer {
           background-color: rgba(0, 255, 255, 0.500);
+          border: 5px;
           border-color: black;
           border-style: groove;
           padding: 50px;
@@ -155,11 +186,13 @@
           width: 950px;
       }
 
+      /* ################################################################### */
+
       .pie-pagina {
           text-decoration: none;
           display: flex;
-          justify-content: space-between;
-          align-items: center;
+          justify-content: left;
+          text-justify: center;
       }
 
       .pie-julian ul {
@@ -174,6 +207,7 @@
           border-color: black;
           border-style: groove;
           text-align: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
       .pie-profe ul {
@@ -188,4 +222,5 @@
           border-color: black;
           border-style: groove;
           text-align: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
