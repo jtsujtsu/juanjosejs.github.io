@@ -2,7 +2,9 @@
           background-color: rgba(105, 105, 105, 0.200);
           background-image: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/09/rick-y-morty-scaled.jpeg?resize=1200%2C695&quality=50&strip=all&ssl=1");
           /* background-position: center center; */
-          background-size: 50%;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
           font-family: Arial, Helvetica, sans-serif;
           justify-content: center;
           align-items: center;
