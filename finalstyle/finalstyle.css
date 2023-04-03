@@ -15,6 +15,8 @@ body {
 /* ################################################################### */
 
 .tit-sinop {
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
 }
@@ -33,6 +35,8 @@ body {
 }
 
 .tit-perso {
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
 }
@@ -51,6 +55,8 @@ body {
 }
 
 .tit-serie {
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
 }
@@ -84,6 +90,8 @@ main {
 /* ################################################################### */
 
 .sinopsis {
+    padding: 5px;
+    margin: 5px;
     text-decoration: none;
     justify-content: center;
     text-justify: center;
@@ -103,6 +111,8 @@ main {
 }
 
 .sinopsis-texto {
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
 }
@@ -120,6 +130,8 @@ main {
 }
 
 .caracteristicas-sinopsis {
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
 }
@@ -128,7 +140,7 @@ main {
     border-radius: 15px;
     border: 5px;
     border-color: black;
-    border-style: groove;  
+    border-style: groove;
 }
 
 .caracteristicas-sinopsis text {
@@ -147,6 +159,10 @@ main {
 /* ################################################################### */
 
 header {
+    display: flex;
+    text-justify: center;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(128, 255, 0, 0.500);
     border: 5px;
     border-color: black;
@@ -160,22 +176,40 @@ header {
 /* ################################################################### */
 
 .encabezado-pagina {
-    text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    display: flex;
+    text-justify: center;
     align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 .titulo-general {
+    padding: 0px;
+    margin: 0px;
     list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
 
-.titulo-principal {
-    padding: 15px;
-    margin: 20px;
+.titulo-general img {
+    display: flex;
+    text-justify: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(237, 121, 100, 0.5);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 90%;
+    height: 90%;
+}
+
+.titulo-general .titulo-principal {
+    padding: 20px;
+    margin: 10px;
     background-color: rgba(218, 112, 214, 0.500);
     border-radius: 15px;
     border: 5px;
@@ -185,14 +219,30 @@ header {
 }
 
 .navegador ul {
+    padding: 0px;
+    margin: 0px;
     list-style: none;
     display: flex;
 }
 
-.navegador ul li {
-    justify-content: space-between;
+.navegador img {
+    display: flex;
+    text-justify: center;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(0, 195, 255, 0.500);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 70%;
+    height: 50%;
+}
+
+.navegador ul li {
+    display: flex;
     padding: 15px;
     margin: 5px;
     background-color: rgba(0, 195, 255, 0.500);
@@ -205,6 +255,10 @@ header {
 /* ################################################################### */
 
 footer {
+    display: flex;
+    text-justify: center;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 255, 255, 0.500);
     border: 5px;
     border-color: black;
@@ -218,14 +272,28 @@ footer {
 /* ################################################################### */
 
 .pie-pagina {
-    text-decoration: none;
     display: flex;
-    justify-content: center;
     text-justify: center;
     align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.pie-pagina img {
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(137, 43, 226, 0.500);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
 }
 
 .pie-julian ul {
+    padding: 5px;
+    margin: 5px;
     list-style: none;
 }
 
@@ -239,9 +307,13 @@ footer {
     border-style: groove;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    justify-content: center;
 }
 
 .pie-profe ul {
+    padding: 5px;
+    margin: 5px;
     list-style: none;
 }
 
@@ -255,4 +327,6 @@ footer {
     border-style: groove;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    justify-content: center;
 }
