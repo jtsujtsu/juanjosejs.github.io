@@ -1,168 +1,18 @@
 /* ################################################################### */
 
 body {
-    background-color: rgba(105, 105, 105, 0.301);
     background-image: url("https://github.com/jtsujtsu/juanjosejs.github.io/blob/main/imagenes/protagonista%20real.jpg?raw=true");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-    align-items: center;
-}
-
-/* ################################################################### */
-
-.tit-sinop {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.tit-sinop h2 {
-    padding: 15px;
-    margin: 20px;
-    width: fit-content;
-    height: auto;
-    background-color: rgba(255, 255, 0, 0.500);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
     text-align: center;
-}
-
-.tit-perso {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.tit-perso h2 {
-    padding: 15px;
-    margin: 20px;
-    width: fit-content;
-    height: auto;
-    background-color: rgba(255, 255, 0, 0.500);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    text-align: center;
-}
-
-.tit-serie {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.tit-serie h2 {
-    padding: 15px;
-    margin: 20px;
-    width: fit-content;
-    height: auto;
-    background-color: rgba(255, 255, 0, 0.500);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    text-align: center;
-}
-
-/* ################################################################### */
-
-main {
-    background-color: rgba(238, 104, 55, 0.5);
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 15px;
-    width: cover;
-}
-
-/* ################################################################### */
-
-.sinopsis {
-    padding: 5px;
-    margin: 5px;
-    text-decoration: none;
-    justify-content: center;
-    text-justify: center;
-    align-items: center;
-}
-
-.ver-serie {
-    background-color: rgba(240, 255, 255, 0.500);
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    padding: 20px;
-    margin: 15px;
-    border-radius: 15px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.sinopsis-texto {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.sinopsis-texto text {
-    background-color: rgba(240, 255, 255, 0.500);
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 15px;
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.caracteristicas-sinopsis {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.caracteristicas-sinopsis img {
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-}
-
-.caracteristicas-sinopsis text {
-    background-color: rgba(240, 255, 255, 0.500);
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 15px;
-    width: 450px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ################################################################### */
 
 header {
-    display: flex;
-    text-justify: center;
-    align-items: center;
-    justify-content: center;
     background-color: rgba(128, 255, 0, 0.500);
     border: 5px;
     border-color: black;
@@ -170,13 +20,12 @@ header {
     padding: 5px;
     margin: 5px;
     border-radius: 15px;
-    width: cover;
 }
 
 /* ################################################################### */
 
+/*
 .encabezado-pagina {
-    display: flex;
     display: flex;
     text-justify: center;
     align-items: center;
@@ -217,32 +66,18 @@ header {
     border-style: groove;
     text-align: center;
 }
+*/
 
-.navegador ul {
+/* ################################################################### */
+
+.encabezado-pagina {
+    text-align: center;
     padding: 0px;
     margin: 0px;
     list-style: none;
-    display: flex;
 }
 
-.navegador img {
-    display: flex;
-    text-justify: center;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    margin: 15px;
-    background-color: rgba(0, 195, 255, 0.500);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    width: 70%;
-    height: 50%;
-}
-
-.navegador ul li {
-    display: flex;
+.foto-personajes img {
     padding: 15px;
     margin: 5px;
     background-color: rgba(0, 195, 255, 0.500);
@@ -250,83 +85,40 @@ header {
     border: 5px;
     border-color: black;
     border-style: groove;
+    width: 50%;
+    height: 30%;
 }
 
-/* ################################################################### */
-
-footer {
+nav {
     display: flex;
+    justify-content: center;
     text-justify: center;
     align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 255, 255, 0.500);
-    border: 5px;
-    border-color: black;
-    border-style: groove;
     padding: 5px;
     margin: 5px;
-    border-radius: 15px;
-    width: cover;
+    list-style: none;
 }
 
-/* ################################################################### */
-
-.pie-pagina {
+nav .navegador {
     display: flex;
+    /*justify-content: center;
+    text-justify: center;
+    align-items: center;*/
+}
+
+nav .navegador li {
+    display: flex;
+    justify-content: center;
     text-justify: center;
     align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 5px;
-    text-decoration: none;
-}
-
-.pie-pagina img {
     padding: 15px;
-    margin: 15px;
-    background-color: rgba(137, 43, 226, 0.500);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-}
-
-.pie-julian ul {
-    padding: 5px;
     margin: 5px;
-    list-style: none;
-}
-
-.pie-julian ul li {
-    padding: 10px;
-    margin: 10px;
-    background-color: rgba(137, 43, 226, 0.500);
+    background-color: rgba(0, 195, 255, 0.500);
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 300px;
-    justify-content: center;
+    width: 130px;
 }
 
-.pie-profe ul {
-    padding: 5px;
-    margin: 5px;
-    list-style: none;
-}
-
-.pie-profe ul li {
-    padding: 10px;
-    margin: 10px;
-    background-color: rgba(137, 43, 226, 0.500);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 300px;
-    justify-content: center;
-}
+/* ################################################################### */

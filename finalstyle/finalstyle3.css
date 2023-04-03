@@ -1,0 +1,80 @@
+/* ################################################################### */
+
+footer {
+    display: flex;
+    text-justify: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.500);
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    width: cover;
+}
+
+/* ################################################################### */
+
+.pie-pagina {
+    display: flex;
+    text-justify: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.pie-pagina img {
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(137, 43, 226, 0.500);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-julian ul {
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+}
+
+.pie-julian ul li {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(137, 43, 226, 0.500);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    justify-content: center;
+}
+
+.pie-profe ul {
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+}
+
+.pie-profe ul li {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(137, 43, 226, 0.500);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    justify-content: center;
+}
+
+/* ################################################################### */
