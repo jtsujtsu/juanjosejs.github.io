@@ -1,5 +1,11 @@
 /* ################################################################### */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("https://github.com/jtsujtsu/juanjosejs.github.io/blob/main/imagenes/protagonista%20real.jpg?raw=true");
     background-position: center center;
@@ -13,7 +19,8 @@ body {
 /* ################################################################### */
 
 header {
-    background-color: rgba(128, 255, 0, 0.500);
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.500);
     border: 5px;
     border-color: black;
     border-style: groove;
@@ -24,96 +31,71 @@ header {
 
 /* ################################################################### */
 
-/*
-.encabezado-pagina {
+.estilo {
+    padding: 15px;
+    margin: 5px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .foto-cartel {
+    padding: 15px;
+    margin: 5px;
     text-justify: center;
     align-items: center;
     justify-content: center;
-    padding: 0px;
-    margin: 0px;
 }
 
-.titulo-general {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-
-.titulo-general img {
-    display: flex;
-    text-justify: center;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 10px;
-    background-color: rgba(237, 121, 100, 0.5);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    width: 90%;
-    height: 90%;
-}
-
-.titulo-general .titulo-principal {
+header .foto-cartel img {
     padding: 20px;
-    margin: 10px;
-    background-color: rgba(218, 112, 214, 0.500);
+    margin: 5px;
+    background-color: rgba(0, 100, 0, 0.500);
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
-    text-align: center;
+    width: 70%;
+    height: 50%;
 }
-*/
 
-/* ################################################################### */
+header .foto-personajes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.encabezado-pagina {
-    text-align: center;
+header .foto-personajes img {
+    padding: 15px;
+    margin: 5px;
+    background-color: rgba(165, 42, 42, 0.500);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 60%;
+    height: 60%;
+}
+
+header .encabezado-pagina {
     padding: 0px;
     margin: 0px;
     list-style: none;
 }
 
-.foto-personajes img {
-    padding: 15px;
-    margin: 5px;
-    background-color: rgba(0, 195, 255, 0.500);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    width: 50%;
-    height: 30%;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    text-justify: center;
-    align-items: center;
-    padding: 5px;
-    margin: 5px;
+header nav ul {
     list-style: none;
-}
-
-nav .navegador {
     display: flex;
-    /*justify-content: center;
-    text-justify: center;
-    align-items: center;*/
 }
 
-nav .navegador li {
+header nav ul li {
     display: flex;
     justify-content: center;
-    text-justify: center;
     align-items: center;
+    text-align: center;
     padding: 15px;
     margin: 5px;
-    background-color: rgba(0, 195, 255, 0.500);
+    background-color: rgba(255, 140, 0, 0.500);
     border-radius: 15px;
     border: 5px;
     border-color: black;
