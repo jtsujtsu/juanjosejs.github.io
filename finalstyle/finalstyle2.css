@@ -100,7 +100,6 @@ main {
     padding: 0px;
     margin: 0px;
     display: flex;
-    justify-content: center;
 }
 
 .sinopsis-texto text {
@@ -108,18 +107,22 @@ main {
     border: 5px;
     border-color: black;
     border-style: groove;
-    padding: 15px;
-    margin: 20px;
+    padding: 30px;
+    margin: 30px;
     border-radius: 15px;
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
 }
 
 .caracteristicas-sinopsis {
-    padding: 0px;
-    margin: 0px;
+    padding: 15px;
+    margin: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .caracteristicas-sinopsis img {
@@ -134,12 +137,14 @@ main {
     border: 5px;
     border-color: black;
     border-style: groove;
-    padding: 15px;
+    padding: 20px;
     margin: 20px;
     border-radius: 15px;
-    width: 450px;
+    width: 510px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    font-size: 18px;
 }
 
 /* ################################################################### */

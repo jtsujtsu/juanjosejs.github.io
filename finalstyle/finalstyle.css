@@ -39,12 +39,24 @@ header {
     align-items: center;
 }
 
-header .foto-cartel {
+.tit-cartel {
     padding: 15px;
     margin: 5px;
-    text-justify: center;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.tit-cartel h1 {
+    padding: 20px;
+    margin: 5px;
+    background-color: hsla(282, 46%, 57%, 0.502);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    font-size: 58px;
+    width: 620px;
 }
 
 header .foto-cartel img {
@@ -68,13 +80,13 @@ header .foto-personajes {
 header .foto-personajes img {
     padding: 15px;
     margin: 5px;
-    background-color: rgba(165, 42, 42, 0.500);
+    background-color: darkblue;
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 
 header .encabezado-pagina {
@@ -86,6 +98,13 @@ header .encabezado-pagina {
 header nav ul {
     list-style: none;
     display: flex;
+    padding: 10px;
+    margin: 5px;
+    background-color: darkblue;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
 }
 
 header nav ul li {
@@ -93,14 +112,15 @@ header nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 15px;
-    margin: 5px;
-    background-color: rgba(255, 140, 0, 0.500);
+    padding: 20px;
+    margin: 2px;
+    background-color: #da9e56da;
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 130px;
+    width: 160px;
+    font-size: 18px;
 }
 
 /* ################################################################### */
