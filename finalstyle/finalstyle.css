@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -35,13 +36,18 @@ header {
     padding: 15px;
     margin: 5px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 480px) or (max-width: 500px) {
+    .estilo {
+        justify-content: center;
+    }
 }
 
 .tit-cartel {
-    padding: 15px;
-    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,17 +55,23 @@ header {
 
 .tit-cartel h1 {
     padding: 20px;
-    margin: 5px;
+    margin: 15px;
     background-color: hsla(282, 46%, 57%, 0.502);
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
-    font-size: 58px;
-    width: 620px;
+    width: fit-content;
+    font-size: 300%;
 }
 
-header .foto-cartel img {
+@media (max-width: 480px) or (max-width: 500px) {
+    .tit-cartel h1 {
+        font-size: 200%;
+    }
+}
+
+.foto-cartel img {
     padding: 20px;
     margin: 5px;
     background-color: rgba(0, 100, 0, 0.500);
@@ -67,17 +79,27 @@ header .foto-cartel img {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 70%;
+    width: 50%;
     height: 50%;
 }
 
-header .foto-personajes {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+@media (max-width: 480px) or (max-width: 500px) {
+    .foto-cartel img {
+        height: 70%;
+    }
+
+    .foto-cartel img {
+        width: 70%;
+    }
 }
 
-header .foto-personajes img {
+.estilo .foto-personajes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estilo .foto-personajes img {
     padding: 15px;
     margin: 5px;
     background-color: darkblue;
@@ -85,20 +107,16 @@ header .foto-personajes img {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 70%;
-    height: 70%;
+    width: 350px;
+    height: 220px;
 }
 
-header .encabezado-pagina {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-
-header nav ul {
-    list-style: none;
+.estilo nav ul {
     display: flex;
-    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     margin: 5px;
     background-color: darkblue;
     border-radius: 15px;
@@ -107,19 +125,18 @@ header nav ul {
     border-style: groove;
 }
 
-header nav ul li {
+.estilo nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 20px;
-    margin: 2px;
+    margin: 5px;
     background-color: #da9e56da;
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 160px;
+    width: 155px;
     font-size: 18px;
 }
 

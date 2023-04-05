@@ -19,6 +19,7 @@ footer {
 
 .pie-pagina {
     display: flex;
+    flex-wrap: wrap;
     text-justify: center;
     align-items: center;
     justify-content: center;
