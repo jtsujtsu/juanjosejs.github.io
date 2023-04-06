@@ -1,17 +1,14 @@
 /* ################################################################### */
 
 footer {
-    display: flex;
-    text-justify: center;
-    justify-content: center;
+    text-align: center;
     background-color: rgba(0, 255, 255, 0.500);
-    border: 5px;
-    border-color: black;
+    border: 10px;
+    border-color: rgba(0, 0, 0, 0.600);
     border-style: groove;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 15px;
-    width: cover;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
 }
 
 /* ################################################################### */
@@ -26,11 +23,13 @@ footer {
     text-decoration: none;
 }
 
+/*
 .pie-pagina img {
     /*display: flex;
     align-items: center;
     text-justify: center;
     justify-content: center;*/
+/*
     padding: 10px;
     margin: 10px;
     background-color: darkblue;
@@ -40,7 +39,7 @@ footer {
     border-style: groove;
     height: max-content;
 }
-
+*/
 .pie-julian ul {
     padding: 5px;
     margin: 5px;
@@ -60,7 +59,7 @@ footer {
     border-style: groove;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 350px;
+    width: auto;
     height: 80px;
     font-size: 20px;
 }
@@ -84,7 +83,7 @@ footer {
     border-style: groove;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 350px;
+    width: auto;
     height: 80px;
     font-size: 20px;
     justify-content: center;

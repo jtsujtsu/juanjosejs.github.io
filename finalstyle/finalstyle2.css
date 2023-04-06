@@ -63,14 +63,14 @@
 /* ################################################################### */
 
 main {
+    text-align: center;
     background-color: rgba(0, 255, 255, 0.500);
-    border: 5px;
-    border-color: black;
+    border: 10px;
+    border-color: rgba(0, 0, 0, 0.600);
     border-style: groove;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 15px;
-    width: cover;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
 }
 
 /* ################################################################### */
@@ -85,22 +85,35 @@ main {
 }
 
 .ver-serie {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.ver-serie p {
+    display: flex;
+    justify-content: center;
+    text-justify: center;
+    align-items: center;
     background-color: rgba(240, 255, 255, 0.500);
     border: 5px;
     border-color: black;
     border-style: groove;
-    padding: 20px;
-    margin: 15px;
+    padding: 25px;
+    margin: 20px;
     border-radius: 15px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    width: 80%;
 }
 
 .sinopsis-texto {
     padding: 0px;
     margin: 0px;
     display: flex;
+    justify-content: center;
 }
 
 .sinopsis-texto text {
@@ -116,6 +129,7 @@ main {
     align-items: center;
     justify-content: center;
     font-size: 18px;
+    width: 80%;
 }
 
 .caracteristicas-sinopsis {
