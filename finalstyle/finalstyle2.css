@@ -94,13 +94,13 @@ main {
     border-radius: 15px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .sinopsis-texto {
     padding: 0px;
     margin: 0px;
     display: flex;
-    font-size: 18px;
 }
 
 .sinopsis-texto text {
@@ -109,7 +109,7 @@ main {
     border-color: black;
     border-style: groove;
     padding: 30px;
-    margin: 30px;
+    margin: 5px;
     border-radius: 15px;
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -146,7 +146,7 @@ main {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* ################################################################### */

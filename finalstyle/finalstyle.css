@@ -35,16 +35,11 @@ header {
 .estilo {
     padding: 15px;
     margin: 5px;
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-}
-
-@media (max-width: 480px) or (max-width: 500px) {
-    .estilo {
-        justify-content: center;
-    }
+    justify-content: center;
 }
 
 .tit-cartel {
@@ -65,7 +60,7 @@ header {
     font-size: 300%;
 }
 
-@media (max-width: 480px) or (max-width: 500px) {
+@media (max-width: 800px) {
     .tit-cartel h1 {
         font-size: 200%;
     }
@@ -83,7 +78,7 @@ header {
     height: 50%;
 }
 
-@media (max-width: 480px) or (max-width: 500px) {
+@media (max-width: 800px) {
     .foto-cartel img {
         height: 70%;
     }
@@ -92,6 +87,8 @@ header {
         width: 70%;
     }
 }
+
+/* ################################################################### */
 
 .estilo .foto-personajes {
     display: flex;
@@ -107,7 +104,7 @@ header {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 350px;
+    width: 330px;
     height: 220px;
 }
 
