@@ -15,6 +15,26 @@ footer {
 
 a {
     text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+nav ul li:hover {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 155px;
+    font-size: 18px;
 }
 
 /* ################################################################### */
@@ -52,6 +72,20 @@ a {
     border-style: groove;
 }
 
+.tit-biogra h2:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+}
+
 .pie-julian ul {
     padding: 5px;
     margin: 5px;
@@ -74,7 +108,7 @@ a {
     border-color: black;
     border-style: groove;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 280px;
+    width: 330px;
     height: 50px;
     font-size: 15px;
 }
@@ -102,7 +136,7 @@ a {
     border-style: groove;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: max-content;
-    width: 280px;
+    width: 330px;
     height: 50px;
     font-size: 15px;
 }

@@ -60,6 +60,45 @@
     text-align: center;
 }
 
+.tit-sinop h2:hover {
+    padding: 15px;
+    margin: 20px;
+    width: fit-content;
+    height: auto;
+    background-color: lightcoral;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+}
+
+.tit-perso h2:hover {
+    padding: 15px;
+    margin: 20px;
+    width: fit-content;
+    height: auto;
+    background-color: lightcoral;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+}
+
+.tit-serie h2:hover {
+    padding: 15px;
+    margin: 20px;
+    width: fit-content;
+    height: auto;
+    background-color: lightcoral;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+}
+
 /* ################################################################### */
 
 main {
