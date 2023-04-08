@@ -10,8 +10,8 @@
 body {
     background-image: url("https://github.com/jtsujtsu/juanjosejs.github.io/blob/main/imagenes/protagonista%20real.jpg?raw=true");
     background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 110%;
+    background-repeat: repeat;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -21,7 +21,6 @@ body {
 
 header {
     text-align: center;
-    background-color: rgba(0, 255, 255, 0.500);
     border: 10px;
     border-color: rgba(0, 0, 0, 0.600);
     border-style: groove;
@@ -103,7 +102,7 @@ header {
     border-style: groove;
 }
 
-.estilo .foto-personajes img {
+.estilo .foto-personajes .foto-real {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,10 +112,24 @@ header {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 320px;
-    height: 210px;
+    width: 310px;
+    height: 205px;
 }
-
+/*
+.estilo .foto-personajes .video-real {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 310px;
+    height: 205px;
+}
+*/
 .estilo nav ul {
     display: flex;
     flex-wrap: wrap;
