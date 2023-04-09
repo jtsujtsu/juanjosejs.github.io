@@ -1,39 +1,15 @@
 /* ################################################################### */
 
 footer {
+    text-decoration: none;
     text-align: center;
     align-items: center;
     justify-content: center;
     border: 10px;
-    border-color: rgba(0, 0, 0, 0.600);
+    border-color: rgba(0, 0, 0);
     border-style: groove;
     padding: 0px;
     margin: 0px;
-    border-radius: 5px;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-a:hover {
-    text-decoration: none;
-    color: blueviolet;
-}
-
-nav ul li:hover {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightcoral;
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    width: 155px;
-    font-size: 18px;
 }
 
 /* ################################################################### */
@@ -46,7 +22,6 @@ nav ul li:hover {
     align-items: center;
     padding: 5px;
     margin: 5px;
-    text-decoration: none;
 }
 
 .tit-biogra {
@@ -64,7 +39,7 @@ nav ul li:hover {
     padding: 15px;
     margin: 20px;
     text-align: center;
-    background-color: rgba(255, 255, 0, 0.500);
+    background-color: rgba(255, 255, 0);
     border-radius: 15px;
     border: 5px;
     border-color: black;
@@ -72,17 +47,21 @@ nav ul li:hover {
 }
 
 .tit-biogra h2:hover {
+    background-color: mediumseagreen;
+}
+
+/* ################################################################### */
+
+.pie-profe ul {
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px;
-    margin: 20px;
-    text-align: center;
-    background-color: lightcoral;
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .pie-julian ul {
@@ -93,58 +72,73 @@ nav ul li:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* ################################################################### */
+
+.pie-profe ul li {
+    padding: 10px;
+    margin: 10px;
+    background-color: hsla(282, 46%, 57%);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 370px;
+    height: 70px;
+}
+
+.pie-profe ul .leye3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pie-profe ul .leye4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .pie-julian ul li {
     padding: 10px;
     margin: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    background-color: hsla(282, 46%, 57%, 0.700);
+    background-color: hsla(282, 46%, 57%);
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 430px;
-    height: 80px;
+    width: 370px;
+    height: 70px;
 }
 
-.pie-profe ul {
-    padding: 5px;
-    margin: 5px;
-    list-style: none;
+.pie-julian ul .leye1 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.pie-profe ul li {
-    padding: 10px;
-    margin: 10px;
+.pie-julian ul .leye2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    text-align: cemter;
-    background-color: hsla(282, 46%, 57%, 0.700);
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: max-content;
-    width: 430px;
-    height: 80px;
+    text-align: center;
 }
+
+/* ################################################################### */
 
 .pie-profe ul li .ima-profe-git {
     padding: 0px;
-    margin: 10px;
-    width: 70px;
-    height: 60px;
+    margin: 5px;
+    width: 55px;
+    height: 50px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
@@ -152,18 +146,16 @@ nav ul li:hover {
 }
 
 .pie-profe ul li a {
-    font-size: 20px;
-}
-
-.pie-profe ul li {
-    font-size: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
 }
 
 .pie-julian ul li .ima-julian-celular {
     padding: 0px;
-    margin: 10px;
-    width: 40px;
-    height: 60px;
+    margin: 5px;
+    width: 35px;
+    height: 50px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
@@ -172,31 +164,43 @@ nav ul li:hover {
 
 .pie-julian ul li .ima-julian {
     padding: 0px;
-    margin: 10px;
-    width: 60px;
-    height: 70px;
+    margin: 5px;
+    width: 45px;
+    height: 55px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
     border-style: groove;
+}
+
+.pie-julian ul li .ima-julian:hover {
+    width: 110px;
+    height: 120px;
+    position: absolute;
 }
 
 .pie-profe ul li .ima-profe {
     padding: 0px;
-    margin: 10px;
-    width: 80px;
-    height: 70px;
+    margin: 5px;
+    width: 65px;
+    height: 55px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
     border-style: groove;
 }
 
+.pie-profe ul li .ima-profe:hover {
+    width: 110px;
+    height: 100px;
+    position: absolute;
+}
+
 .pie-julian ul li .ima-julian-git {
     padding: 0px;
-    margin: 10px;
-    width: 70px;
-    height: 60px;
+    margin: 5px;
+    width: 55px;
+    height: 50px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
@@ -205,9 +209,9 @@ nav ul li:hover {
 
 .pie-julian ul li .ima-julian-email {
     padding: 0px;
-    margin: 10px;
-    width: 50px;
-    height: 60px;
+    margin: 5px;
+    width: 45px;
+    height: 55px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
@@ -216,9 +220,9 @@ nav ul li:hover {
 
 .pie-profe ul li .ima-profe-email {
     padding: 0px;
-    margin: 10px;
-    width: 50px;
-    height: 60px;
+    margin: 5px;
+    width: 45px;
+    height: 55px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
@@ -227,9 +231,9 @@ nav ul li:hover {
 
 .pie-julian ul li .ima-julian-utn {
     padding: 0px;
-    margin: 10px;
-    width: 150px;
-    height: 60px;
+    margin: 5px;
+    width: 140px;
+    height: 45px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
@@ -238,22 +242,58 @@ nav ul li:hover {
 
 .pie-profe ul li .ima-profe-utn {
     padding: 0px;
-    margin: 10px;
-    width: 150px;
-    height: 60px;
+    margin: 5px;
+    width: 140px;
+    height: 45px;
     border-radius: 5px;
     border: 2px;
     border-color: black;
     border-style: groove;
 }
 
+/* ################################################################### */
+
+.pie-julian ul li .nume {
+    padding: 0px;
+    margin: 50px;
+}
+
+.pie-julian ul li .lin1 {
+    padding: 0px;
+    margin: 50px;
+}
+
+.pie-julian ul li .alum {
+    padding: 0px;
+    margin: 50px;
+}
+
+.pie-profe ul li .lin2 {
+    padding: 0px;
+    margin: 30px;
+}
+
+.pie-profe ul li .lin3 {
+    padding: 0px;
+    margin: 5px;
+}
+
+.pie-profe ul li .alum2 {
+    padding: 0px;
+    margin: 30px;
+}
+
 .pie-julian ul li a {
     font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    justify-content: center;
 }
 
-.pie-julian ul li {
-    font-size: 18px;
+a {
+    text-decoration: none;
+    color: blue;
 }
-
 
 /* ################################################################### */

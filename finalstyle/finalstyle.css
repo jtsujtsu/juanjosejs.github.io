@@ -10,11 +10,18 @@
 body {
     background-image: url("https://github.com/jtsujtsu/juanjosejs.github.io/blob/main/imagenes/protagonista%20real.jpg?raw=true");
     background-position: center center;
-    background-size: 110%;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-repeat: repeat;
+        background-size: 100%;
+    }
 }
 
 /* ################################################################### */
@@ -22,7 +29,7 @@ body {
 header {
     text-align: center;
     border: 10px;
-    border-color: rgba(0, 0, 0, 0.600);
+    border-color: rgba(0, 0, 0);
     border-style: groove;
     padding: 0px;
     margin: 0px;
@@ -50,7 +57,7 @@ header {
 .tit-cartel h1 {
     padding: 20px;
     margin: 15px;
-    background-color: hsla(282, 46%, 57%, 0.502);
+    background-color: hsla(282, 46%, 57%);
     border-radius: 15px;
     border: 5px;
     border-color: black;
@@ -68,7 +75,7 @@ header {
 .foto-cartel img {
     padding: 20px;
     margin: 5px;
-    background-color: rgba(0, 100, 0, 0.500);
+    background-color: rgba(0, 100, 0);
     border-radius: 15px;
     border: 5px;
     border-color: black;
@@ -95,7 +102,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 139, 0.600);
+    background-color: rgba(0, 0, 139);
     border-radius: 15px;
     border: 5px;
     border-color: black;
@@ -115,6 +122,7 @@ header {
     width: 310px;
     height: 205px;
 }
+
 /*
 .estilo .foto-personajes .video-real {
     display: flex;
@@ -130,14 +138,20 @@ header {
     height: 205px;
 }
 */
+
+.estilo nav ul li:hover {
+    background-color: mediumseagreen;
+}
+
 .estilo nav ul {
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 2px;
     margin: 5px;
-    background-color: rgba(0, 0, 139, 0.600);
+    background-color: rgba(0, 0, 139);
     border-radius: 15px;
     border: 5px;
     border-color: black;
@@ -145,6 +159,7 @@ header {
 }
 
 .estilo nav ul li {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,6 +172,11 @@ header {
     border-style: groove;
     width: 155px;
     font-size: 18px;
+}
+
+.estilo nav ul li a {
+    text-decoration: none;
+    color: blue;
 }
 
 /* ################################################################### */
