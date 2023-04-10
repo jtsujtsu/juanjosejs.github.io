@@ -27,13 +27,15 @@ body {
 /* ################################################################### */
 
 header {
+    text-decoration: none;
     text-align: center;
-    border: 10px;
+    border: 5px;
     border-color: rgba(0, 0, 0);
     border-style: groove;
     padding: 0px;
     margin: 0px;
-    border-radius: 5px;
+    border-radius: 0px;
+    justify-content: center;
 }
 
 /* ################################################################### */
