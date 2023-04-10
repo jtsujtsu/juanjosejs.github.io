@@ -107,6 +107,24 @@ footer {
     height: 70px;
 }
 
+.pie-profe ul .lin-utn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 16px;
+}
+
+.pie-profe ul .lin-utn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 16px;
+}
+
 .pie-julian ul li {
     padding: 10px;
     margin: 10px;
@@ -135,7 +153,27 @@ footer {
     height: 70px;
 }
 
+.pie-julian ul .lin-utn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 16px;
+}
+
 /* ################################################################### */
+
+.pie-profe ul li .ima-utn-mensa {
+    padding: 0px;
+    margin: 5px;
+    width: 115px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
 
 .pie-profe ul li .ima-profe-git {
     padding: 0px;
