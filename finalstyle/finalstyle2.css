@@ -187,19 +187,43 @@ main {
     height: 70%;
 }
 
-.series .foto-hbo {
-    text-decoration: none;
-    padding: 0px;
-    margin: 20px;
+.foto-hbo {
+    display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+}
+
+.foto-hbo-1 {
+    padding: 0px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 45%;
-    height: 45%;
+    width: 50%;
+    height: 50%;
+}
+
+.foto-hbo-2 {
+    padding: 0px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 50%;
+    height: 50%;
 }
 
 /* ################################################################### */
