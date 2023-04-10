@@ -176,9 +176,30 @@ main {
     font-size: 20px;
 }
 
-a {
+/* ################################################################### */
+
+.foto-caricatura {
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 70%;
+    height: 70%;
+}
+
+.series .foto-hbo {
     text-decoration: none;
-    color: blue;
+    padding: 0px;
+    margin: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 45%;
+    height: 45%;
 }
 
 /* ################################################################### */
