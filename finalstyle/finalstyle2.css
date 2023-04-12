@@ -142,7 +142,6 @@ main {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    width: 80%;
 }
 
 .caracteristicas-sinopsis {
@@ -169,7 +168,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
-    width: 510px;
+    width: 500px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;

@@ -329,3 +329,40 @@ footer {
 }
 
 /* ################################################################### */
+
+.ima-julian-estudio {
+    padding: 0px;
+    margin: 5px;
+    width: 245px;
+    height: 280px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.estudi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.estudi .estu {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkgrey;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    font-size: 15px;
+}
