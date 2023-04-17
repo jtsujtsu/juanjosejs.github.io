@@ -195,7 +195,7 @@ main {
     padding: 0px;
     margin: 5px;
     border-radius: 15px;
-    width: 400px;
+    width: 350px;
 }
 
 @media (max-width: 800px) {
@@ -218,24 +218,38 @@ main {
     padding: 0px;
     margin: 0px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
-.sinopsis-texto text {
+.sinopsis-texto p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     background-color: darkseagreen;
     border: 5px;
     border-color: black;
     border-style: groove;
-    padding: 30px;
+    padding: 20px;
     margin: 5px;
     border-radius: 15px;
-    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
-    justify-content: center;
     font-size: 18px;
-    width: 90%;
+    width: 70%;
+}
+
+.sinopsis-texto .tex-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
 }
 
 .caracteristicas-sinopsis {
@@ -262,7 +276,6 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
-    width: 60%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
